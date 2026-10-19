@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: deepverify-frontend
-    runtime: static
-    buildCommand: npm install && npm run dev
-    staticPublishPath: ./dist
